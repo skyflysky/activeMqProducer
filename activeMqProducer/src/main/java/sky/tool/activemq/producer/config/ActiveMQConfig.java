@@ -20,13 +20,13 @@ public class ActiveMQConfig
 	@Bean(name="q1")
 	public Queue queue1()
 	{
-		return new ActiveMQQueue("Queue1");
+		return new ActiveMQQueue("QueueA");
 	}
 	
 	@Bean(name="q2")
 	public Queue queue2()
 	{
-		return new ActiveMQQueue("Queue2");
+		return new ActiveMQQueue("QueueB");
 	}
 
 	@SuppressWarnings("rawtypes")
@@ -43,19 +43,19 @@ public class ActiveMQConfig
 	@Bean(name="t1")
 	Topic topic1()
 	{
-		return new ActiveMQTopic("Topic1");
+		return new ActiveMQTopic("TopicA");
 	}
 
 	@Bean(name="t2")
 	Topic topic2()
 	{
-		return new ActiveMQTopic("Topic2");
+		return new ActiveMQTopic("TopicB");
 	}
 	
 	@Bean(name="t3")
 	Topic topic3()
 	{
-		return new ActiveMQTopic("Topic3");
+		return new ActiveMQTopic("TopicC");
 	}
 	
 }
