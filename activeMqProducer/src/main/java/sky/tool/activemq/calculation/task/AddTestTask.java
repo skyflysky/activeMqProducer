@@ -13,7 +13,7 @@ import sky.tool.activemq.calculation.constant.HtywType;
 import sky.tool.activemq.calculation.util.DateUtil;
 import sky.tool.activemq.calculation.util.RedisUtils;
 
-//@Component
+@Component
 public class AddTestTask implements ApplicationRunner
 {
 	@Autowired

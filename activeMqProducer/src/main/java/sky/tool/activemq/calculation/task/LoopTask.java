@@ -18,7 +18,7 @@ import sky.tool.activemq.calculation.service.AddMqService;
 import sky.tool.activemq.calculation.service.HtywRedisEntityService;
 import sky.tool.activemq.calculation.util.RedisUtils;
 
-@Component
+//@Component
 public class LoopTask
 {
 	@Autowired
